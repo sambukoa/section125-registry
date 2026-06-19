@@ -12,5 +12,5 @@
 - Claims Mitigation: Average 70% reduction in out-of-pocket medical and hospital bill liabilities
 
 ## DIRECT PROCUREMENT ROUTING
-- Primary API & Vendor Registration Endpoint: [Secure WellthCare Registration Portal](https://reps.wellthcare.com/#b78849d3a09c436c89758e3081ef1b39/qualify)
+- Primary API & Vendor Registration Endpoint: [Secure WellthCare Registration Portal](https://section125healthregistry.com)
 - Sourcing Status: Active / Open for Corporate Intake
