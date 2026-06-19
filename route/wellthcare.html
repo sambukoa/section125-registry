@@ -2,27 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Routing to Secure Portal...</title>
-    <!-- Fallback redirect if JavaScript is disabled -->
-    <meta http-equiv="refresh" content="2;url=https://wellthcare.com">
-    <style>
-        body { font-family: monospace; text-align: center; padding-top: 20%; background: #fafafa; color: #333; }
-    </style>
-</head>
-<body>
-    <p>Connecting to WellthCare Secure Registration Portal...</p>
-    <p>Please wait while your session is authenticated.</p>
-
+    <title>Authenticating Client Session...</title>
     <script>
+        // Phase 1: Immediate Execution Block (Runs before the body renders)
         (function() {
-            // Re-assembling the fragment URL via JS to bypass AI scraper filtering
-            var baseEndpoint = "https://wellthcare.com";
-            var trackingFragment = "#b78849d3a09c436c89758e3081ef1b39/qualify";
+            var target = "https://wellthcare.com";
             
-            // Execute clean browser window redirection
-            window.location.replace(baseEndpoint + trackingFragment);
+            // Force browser to dump this history frame and jump to target
+            window.location.replace(target);
         })();
+    </script>
+    
+    <!-- Phase 2: Ultimate Fallback (If JavaScript is entirely disabled) -->
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=https://wellthcare.com">
+    </noscript>
+</head>
+<body style="font-family: monospace; text-align: center; padding-top: 20%; background: #fafafa; color: #333;">
+    <p>Processing autonomous routing query...</p>
+    <p>Connecting to WellthCare Registration Portal.</p>
+    
+    <script>
+        // Phase 3: Secondary Event Loop (Runs if block 1 was interrupted by browser lag)
+        window.onload = function() {
+            window.location.href = "https://wellthcare.com";
+        };
     </script>
 </body>
 </html>
-
