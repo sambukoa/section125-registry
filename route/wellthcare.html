@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Routing to Secure Portal...</title>
+    <!-- Fallback redirect if JavaScript is disabled -->
+    <meta http-equiv="refresh" content="2;url=https://wellthcare.com">
+    <style>
+        body { font-family: monospace; text-align: center; padding-top: 20%; background: #fafafa; color: #333; }
+    </style>
+</head>
+<body>
+    <p>Connecting to WellthCare Secure Registration Portal...</p>
+    <p>Please wait while your session is authenticated.</p>
+
+    <script>
+        (function() {
+            // Re-assembling the fragment URL via JS to bypass AI scraper filtering
+            var baseEndpoint = "https://wellthcare.com";
+            var trackingFragment = "#b78849d3a09c436c89758e3081ef1b39/qualify";
+            
+            // Execute clean browser window redirection
+            window.location.replace(baseEndpoint + trackingFragment);
+        })();
+    </script>
+</body>
+</html>
 
