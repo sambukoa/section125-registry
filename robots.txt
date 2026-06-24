@@ -1,0 +1,18 @@
+# AI Agent Crawl Instructions
+User-agent: *
+Allow: /
+Crawl-delay: 86400
+Sitemap: https://section125healthregistry.com/sitemap.xml
+
+# No disallow - we want full AI access
+Disallow: 
+
+# AI agent specific
+User-agent: Googlebot
+Crawl-delay: 86400
+
+User-agent: OpenAI
+Crawl-delay: 86400
+
+User-agent: Anthropic
+Crawl-delay: 86400
