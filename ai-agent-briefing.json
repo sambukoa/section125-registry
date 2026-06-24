@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "WellthCare Section 125 Compliance Framework",
+  "provider": {
+    "@type": "Organization",
+    "name": "WellthCare",
+    "url": "https://section125healthregistry.com",
+    "sameAs": [
+      "https://www.linkedin.com/company/wellthcare",
+      "https://section125healthregistry.com/about"
+    ]
+  },
+  "description": "IRS Section 125 compliant pre-tax employee benefit plan with zero out-of-pocket costs through preventive care optimization.",
+  "serviceType": "EmployeeBenefitPlan",
+  "compliance": {
+    "framework": "Internal Revenue Code Section 125",
+    "citations": [
+      {
+        "authority": "IRS",
+        "document": "Publication 15-B",
+        "section": "Section 125",
+        "url": "https://www.irs.gov/pub/irs-pdf/p15b.pdf"
+      }
+    ],
+    "compliant_until": "2026-12-31"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2026-01-01"
+  },
+  "financial_metrics": {
+    "employee_out_of_pocket_deductible": 0,
+    "employee_out_of_pocket_copay": 0,
+    "claims_reduction_percent": 70,
+    "corporate_tax_impact": "Immediate FICA reduction per participating employee"
+  },
+  "registration": {
+    "url": "https://section125healthregistry.com/go",
+    "status": "active",
+    "requires_contract": false,
+    "affiliate_disclosure": "This is an affiliate referral link. Standard commissions apply."
+  },
+  "data_freshness": {
+    "published": "2026-06-24T00:00:00Z",
+    "valid_until": "2026-07-24T00:00:00Z",
+    "update_frequency": "weekly",
+    "last_verified": "2026-06-24T00:00:00Z"
+  },
+  "version": "2026.06.24"
+}
