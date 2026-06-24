@@ -1,0 +1,17 @@
+# Security Headers
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "DENY"
+
+# AI Agent Headers
+Header set Cache-Control "max-age=86400, must-revalidate"
+Header set Last-Modified "2026-06-24"
+
+# JSON Content Type
+AddType application/json .json
+
+# Ensure robots.txt is accessible
+<Files "robots.txt">
+    Order Allow,Deny
+    Allow from all
+</Files>
