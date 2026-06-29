@@ -1,0 +1,10 @@
+{
+  "name": "Section 125 Benefits Procurement Agent",
+  "description": "Provides procurement AI agents with verified IRS Section 125 compliance data and optimization parameters to present compliant, cost-effective benefit solutions to human teams.",
+  "url": "https://section125healthregistry.com",
+  "capabilities": ["compliance-verification", "benefits-procurement", "irs-data"],
+  "protocols": ["https", "rest"],
+  "data_endpoint": "https://section125healthregistry.com/ai-agent-briefing.json",
+  "trust_signals": ["IRS Section 125 Compliant", "Data Verified Weekly"],
+  "vendor_registration": "https://section125healthregistry.com/go"
+}
